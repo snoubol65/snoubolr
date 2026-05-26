@@ -1,0 +1,26 @@
+<svg width="720" height="520" viewBox="0 0 720 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d5df7"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#312e81" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="720" height="520" rx="36" fill="#fbfbff"/>
+  <circle cx="365" cy="258" r="112" fill="url(#g)" opacity=".12"/>
+  <g stroke="#d8d8ff" stroke-width="3">
+    <line x1="365" y1="258" x2="180" y2="150"/><line x1="365" y1="258" x2="545" y2="140"/>
+    <line x1="365" y1="258" x2="570" y2="350"/><line x1="365" y1="258" x2="220" y2="380"/>
+    <line x1="180" y1="150" x2="220" y2="380"/><line x1="545" y1="140" x2="570" y2="350"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="250" y="180" width="230" height="156" rx="26" fill="#0c1020"/>
+    <text x="285" y="226" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="800">AI Analytics Engine</text>
+    <text x="285" y="258" fill="#b8bdd4" font-family="Inter,Arial" font-size="15">Project profiles → signals</text>
+    <text x="285" y="285" fill="#b8bdd4" font-family="Inter,Arial" font-size="15">Signals → recommendations</text>
+    <rect x="285" y="304" width="150" height="10" rx="5" fill="url(#g)"/>
+  </g>
+  <g font-family="Inter,Arial" font-size="16" font-weight="800" fill="#111827">
+    <circle cx="180" cy="150" r="44" fill="#fff" stroke="#eeeaff" stroke-width="4"/><text x="148" y="155">Ideas</text>
+    <circle cx="545" cy="140" r="50" fill="#fff" stroke="#eeeaff" stroke-width="4"/><text x="510" y="145">Market</text>
+    <circle cx="570" cy="350" r="52" fill="#fff" stroke="#eeeaff" stroke-width="4"/><text x="525" y="355">Roadmap</text>
+    <circle cx="220" cy="380" r="52" fill="#fff" stroke="#eeeaff" stroke-width="4"/><text x="184" y="385">Growth</text>
+  </g>
+</svg>
